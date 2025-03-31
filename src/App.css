@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.home {
+  text-align: center;
+}
+
+
+.main-content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.explore-btn {
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.explore-btn:hover {
+  background-color: #f40612;
+}

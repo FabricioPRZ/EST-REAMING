@@ -1,4 +1,4 @@
-.login-container {
+.register-container {
     width: 400px;
     margin: 50px auto;
     padding: 20px;
@@ -8,13 +8,13 @@
     text-align: center;
 }
 
-.login-container-h2 {
+.register-container-h2 {
     margin-bottom: 20px;
     color: #ffffff;
     font-family: "Merriweather Sans", sans-serif;
 }
 
-.login-form {
+.register-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -32,7 +32,7 @@
     font-family: "Merriweather Sans", sans-serif;
 }
 
-.login-input {
+.register-input {
     width: 95%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -40,7 +40,7 @@
     font-size: 1rem;
 }
 
-.login-button {
+.register-button {
     width: 100%;
     padding: 10px 10px;
     font-size: 1rem;
@@ -53,23 +53,23 @@
     font-family: "Merriweather Sans", sans-serif;
 }
 
-.login-button:hover {
+.register-button:hover {
     background-color: #810000;
 }
 
-.register-text {
+.login-text {
     margin-top: 15px;
     font-size: 0.9rem;
     color: #ffffff;
     font-family: "Merriweather Sans", sans-serif;
 }
 
-.register-text-a {
+.login-text-a {
     color: #e90101;
     text-decoration: none;
     font-family: "Merriweather Sans", sans-serif;
 }
 
-.register-text-a:hover {
+.login-text-a:hover {
     text-decoration: underline;
 }

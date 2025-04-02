@@ -1,0 +1,40 @@
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #353333;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.intro-section-h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.intro-section-p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #f1f0f0;
+    line-height: 1.5;
+}
+
+.explore-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #f54500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #8b0505;
+}

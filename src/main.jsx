@@ -5,6 +5,7 @@ import './index.css';
 import App from './App.jsx';
 import Login from './features/auth/Login.jsx';
 import Register from './features/auth/Register.jsx';
+import MovieList from './features/movies/MovieList.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/movies-list" element={<MovieList />} />
       </Routes>
     </Router>
   </StrictMode>,

@@ -1,0 +1,1 @@
+//Esta es la vista en donde irá el reproductor de video.

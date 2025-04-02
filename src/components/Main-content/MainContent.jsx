@@ -1,8 +1,22 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./MainContent.css";
 import Head from "../Head/Head";
 
 function MainContent() {
+    const navigate = useNavigate();
+    const isAuthenticated = false; 
+
+    const handleExploreClick = () => {
+        if (isAuthenticated) {
+            // Si el usuario está autenticado, redirige a la página de lista de películas
+            navigate("/movies-list");
+        } else {
+            // Si no está autenticado, redirige al login
+            navigate("/login");
+        }
+    };
+
     return (
         <main className="main-content">
             <Head />
@@ -13,7 +27,9 @@ function MainContent() {
                     para todos los gustos. Desde los últimos estrenos hasta los clásicos de siempre, 
                     tenemos algo especial para ti.
                 </p>
-                <button className="explore-button">Explorar</button>
+                <button className="explore-button" onClick={handleExploreClick}>
+                    Explorar
+                </button>
             </section>
         </main>
     );

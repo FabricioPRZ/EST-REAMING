@@ -1,0 +1,1 @@
+//Esta es la vista en donde se subira el video.
